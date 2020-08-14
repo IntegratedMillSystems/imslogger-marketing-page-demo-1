@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+html, body {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin-top: 5rem;
+}
+
+.navbar-with-background {
+  background: none !important;
+  border: none !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.navbar-background-masthead {
+  color: white;
+  border-bottom: white solid 1px;
+  background-color: #00000000 !important;
+}
+
+.navbar-background-normal {
+  color: white;
+  border-bottom: black solid 1px;
+  background-color: #000000FF !important;
+}
+
+header.masthead {
+  background: url("../img/masthead-industrial.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  position: relative;
+  margin-top: -5rem;
+}
+
+header.masthead h1 {
+  font-size: 1.8rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.img-attribution {
+  float: right;
+  opacity: 0.5;
+  padding: 0.2rem;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
