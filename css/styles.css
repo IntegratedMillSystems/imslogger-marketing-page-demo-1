@@ -80,6 +80,12 @@ header.masthead h1 {
   padding: 0.2rem;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.carousel-jumbotron {
+  background-color: rgb(109, 109, 109);
+  padding: 1rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  color: black !important;
 }
