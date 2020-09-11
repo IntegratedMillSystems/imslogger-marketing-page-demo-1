@@ -81,8 +81,10 @@ header.masthead h1 {
 }
 
 .carousel-jumbotron {
-  background-color: rgb(109, 109, 109);
-  padding: 1rem;
+  border-radius: 0px;
+  padding: 0px;
+
+  border: 2px solid black;
 }
 
 .carousel-control-next,
